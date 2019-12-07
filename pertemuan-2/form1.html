@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Form Pendaftaran Training
+		</title>
+	</head>
+  <body>
+
+        
+
+    
+
+    <h2>Form Pendaftaran Training</h2>
+    <fieldset>
+    <legend><h3>Data peserta</h3></legend>
+    
+    <form action="login.php" method="POST"></form>
+    <table border="0">
+        <tr>
+            <td><label>Nama</label></td>
+            <td>:</td>
+            <td><input type="text" name="nama" placeholder="nama..." /></td>
+        </tr>
+        <tr>
+            <td> <label>Umur:</label></td>
+            <td>:</td>
+            <td> <input type="number" name="umur" placeholder="umur..." /></td>
+        </tr>
+        <tr>
+            <td><label>Jenis kelamin:</label></td>
+            <td>:</td>
+            <td><label><input type="radio" name="jenis_kelamin" value="laki-laki" /> Laki-laki</label>
+                <label><input type="radio" name="jenis_kelamin" value="perempuan" /> Perempuan</label></td>
+        </tr>
+        <tr>
+            <td><label>Alamat:</label></td>
+            <td>:</td>
+            <td><form method="post" action=""></form>
+                <textarea name="alamat" rows="5" cols="40"></textarea></p></td>
+        </tr>
+        <tr>
+            <td><label>No Telephone</label></td>
+            <td>:</td>
+            <td><input type="number" name="phonecell" placeholder="telephone" /></td>
+        </tr>
+        <tr>
+            <td> <label>e-mail</label></td>
+            <td>:</td>
+            <td> <input type="email" name="umur" placeholder="email Anda" /></td>
+        </tr>
+        <tr>
+            <td><label>Sumber informasi training:</label></td>
+            <td>:</td>
+            <td><select> 
+                    <p><option value="offline">iklan media cetak</option></p>
+                    <p><option value="Internet">iklan media sosial/internet</option></p>
+                    <p><option value="email">Pemberitahuan melalui e-mail</option></p>  
+                    <p><option value="lain">Pemberitahuan melalui Lain-lain</option></p>  
+                </select>  
+            </td>
+        </tr>
+        <tr>
+            <td><label>Training yang Dipilih</label></td>
+            <td>:</td>
+            <td><form action="kelas.php" method="GET">
+                    <input type='checkbox' name='class1' value='ui'/>UI/UX
+                    <input type='checkbox' name='class2' value='fullstack'/>fullstack
+            </td>
+        </tr>
+        <tr>
+            <td><label>Dengan mengisi form ini saya telah <br> telah memiliki persyaratan sbb</label></td>
+            <td>:</td>
+            <td><ul>
+                    <li>1 Unit Laptop dengan  minimal spesifikasi Prosessor Intel i3 memory 8 gbyte</li>
+                    <li>Telah memberikan persyaratan administrasi ke panitia penyelenggara</li>
+                    <li>Telah menyelesaikan proses tes tertulis</li>   
+                 </ul></td>
+        </tr>
+        <tr>
+            <td><input type="submit" name="submit" value="Kirim"/></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </form>
+        
+    </table>
+</fieldset>
+<fieldset><table border="1" cellpadding="8">
+        <tr>
+            <td bgcolor="#FFA500"><center><img src="lab.jpeg" width="100%"></center></td>
+        </tr>
+</table></fieldset>
+     
+            
+                
+            
+                
+            
+                
+             
+            
+
+                     
+
+              
+    <footer>
+        <br>
+        <br> 
+        <a href="about.html">Tentang</a> - <a href="privasi.html">Privasi</a> -
+        <a href="kontak.html">Contact</a>
+        <address>Alamat kami: JL. Tridharma Utama II No.39, Cilandak Barat, Jakarta Selatan
+        </address>
+        </br>
+        <br>       
+    </footer>
+    
+
+    
+
+    
+  </body>
+</html>
